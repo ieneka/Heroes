@@ -1,0 +1,11 @@
+<div class="bg-secondary col-3 ml-2"  *ngIf="hero">
+    <h2 class="text-warning">{{hero.name | uppercase}} Details</h2>
+    <div><span class="text-danger">id: </span>{{hero.id}}</div>
+    <div>
+      <label class="text-danger">name:
+        <input [(ngModel)]="hero.name" placeholder="name"/>
+      </label>
+    </div>
+    <button (click)="goBack()">go back</button>
+    <button (click)="save()">save</button>
+  </div>

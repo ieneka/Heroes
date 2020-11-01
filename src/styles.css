@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+*{
+   font-family: 'Marvel', sans-serif; 
+}
+
+body{
+    background-image: url("/assets/images/marvel.jpg");
+    background-repeat: no-repeat;
+    
+    
+}
